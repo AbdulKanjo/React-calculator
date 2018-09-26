@@ -51,10 +51,6 @@ class App extends Component {
   }
 
   render() {
-    console.log("this is current", this.state.current);
-    console.log("this is prev", this.state.previous);
-    console.log("this is operator", this.state.operator);
-
     return (
       <div className="App">
         <header className="App-header">
